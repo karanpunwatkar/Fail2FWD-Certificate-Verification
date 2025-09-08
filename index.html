@@ -2,19 +2,27 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fail2FWD Certificate Verification</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Certificate Verification</h1>
+  <!-- Startup Branding -->
+  <header class="branding">
+    <h1 class="startup-name">Fail2FWD</h1>
+    <p class="tagline">Empowering Learning • Verifying Achievements</p>
+  </header>
 
-  <div class="form">
-    <input type="text" id="studentId" placeholder="Enter Student ID">
-    <button id="checkBtn">Check</button>
-  </div>
+  <main>
+    <h1>Certificate Verification</h1>
+    <div class="form">
+      <input type="text" id="studentId" placeholder="Enter Student ID">
+      <button id="checkBtn">Check</button>
+    </div>
+    <div id="result"></div>
+  </main>
 
-  <div id="result"></div>
-
+  <script type="module" src="firebase.js"></script>
   <script type="module" src="app.js"></script>
 </body>
 </html>
