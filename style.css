@@ -20,7 +20,7 @@ body::before {
   content: "";
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background-image: 
+  background-image:
     linear-gradient(to right, rgba(100,255,218,0.08) 1px, transparent 1px),
     linear-gradient(to bottom, rgba(100,255,218,0.08) 1px, transparent 1px);
   background-size: 50px 50px;
@@ -140,4 +140,43 @@ button:hover {
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
+}
+
+/* Startup Branding */
+.branding {
+  z-index: 1;
+  margin-bottom: 20px;
+  animation: fadeInUp 1s ease-out;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.startup-name {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #64ffda;
+  text-shadow: 0 0 10px #64ffda, 0 0 20px #64ffda;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.tagline {
+  font-size: 1rem;
+  font-style: italic;
+  color: #8892b0;
+  max-width: 600px;
+  margin-top: 5px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  h1 { font-size: 2.5rem; }
+  .startup-name { font-size: 3rem; }
+  .form { padding: 25px 30px; }
+  input { width: 200px; }
+  button { margin-left: 0; margin-top: 15px; }
 }
