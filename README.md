@@ -20,7 +20,7 @@ Students, educators, and recruiters can visit this website to:
 Fail2FWD issues certificates for students upon completion of courses and demo lectures.  
 To verify a certificate, please visit:  
 
-👉 [www.fail2fwd.com/certificate-verification](http://www.fail2fwd.com/certificate-verification)  
+👉 [www.fail2fwd.com](http://www.fail2fwd.com)  
 
 You will need the **Certificate ID** and **Student Email** to validate authenticity.
 
@@ -37,7 +37,7 @@ You will need the **Certificate ID** and **Student Email** to validate authentic
 
 ## 🚀 Tech Stack
 - **Frontend**: HTML, CSS, JavaScript  
-- **Hosting**: Any static hosting service (Netlify, Vercel, GitHub Pages)  
+- **Hosting**: github
 
 ---
 
