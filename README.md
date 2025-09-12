@@ -38,14 +38,7 @@ You will need the **Certificate ID** and **Student Email** to validate authentic
 ## 🚀 Tech Stack
 - **Frontend**: HTML, CSS, JavaScript  
 - **Hosting**: github
-
----
-
-## 📌 Notes
-- This project is currently a **static implementation** using localStorage.  
-- For production, integration with a **backend + database** (Node.js, Express, MongoDB) is recommended.  
-- Certificate verification should be backed by a secure API before going live.  
-
+  
 ---
 
 ## 📞 Contact
